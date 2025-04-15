@@ -68,7 +68,7 @@ choice = st.sidebar.selectbox("Navigation", menu)
 # === Home Page ===
 if choice == "Home":
     st.subheader("🏠 Welcome!")
-    st.markdown("Securely store & retrieve your data with encryption. Each user has their own protected data.")
+    st.markdown("Encrypt and safely access your personal data — only you can see it.")
 
 # === Registration Page ===
 elif choice == "Register":
